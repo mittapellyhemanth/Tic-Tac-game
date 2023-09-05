@@ -1,0 +1,56 @@
+/* Add some basic styling to the game container */
+h1{
+    color:chartreuse;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 3rem;
+}
+#game-container {
+    text-align: center;
+    margin: 20px auto;
+}
+
+/* Style the grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    grid-gap: 0px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+/* Style individual cells in the grid */
+.cell {
+    width: 60px;
+    height: 60px;
+    font-size: 1.3rem;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style the information display */
+#info {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+/* Style the restart button */
+#restart {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style the restart button on hover */
+#restart:hover {
+    background-color: #0056b3;
+}
