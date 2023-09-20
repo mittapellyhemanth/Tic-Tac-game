@@ -1,4 +1,4 @@
-/* Add some basic styling to the game container */
+
 body{
 background-color: black;
 }
@@ -13,7 +13,7 @@ h1{
     margin: 20px auto;
 }
 
-/* Style the grid */
+
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 60px);
@@ -24,7 +24,7 @@ h1{
     margin: 50px;
 }
 
-/* Style individual cells in the grid */
+
 .cell {
     width: 60px;
     height: 60px;
@@ -38,14 +38,14 @@ h1{
     justify-content: center;
 }
 
-/* Style the information display */
+
 #info {
     font-size: 1.5rem;
     margin: 20px 0;
     color:brown;
 }
 
-/* Style the restart button */
+
 #restart {
     font-size: 18px;
     padding: 10px 20px;
@@ -55,7 +55,7 @@ h1{
     cursor: pointer;
 }
 
-/* Style the restart button on hover */
+
 #restart:hover {
     background-color: #0056b3;
 }
