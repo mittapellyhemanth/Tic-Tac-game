@@ -1,6 +1,4 @@
-// JavaScript code for Tic Tac Toe game
 
-// Variables
 let currentPlayer = 'X';
 let gameBoard = ['', '', '', '', '', '', '', '', ''];
 let gameActive = true;
@@ -15,6 +13,7 @@ function checkWinner() {
 
     for (let pattern of winPatterns) {
         const [a, b, c] = pattern;
+       
         if (gameBoard[a] && gameBoard[a] === gameBoard[b] && gameBoard[a] === gameBoard[c]) {
           return gameBoard[a];
         }
